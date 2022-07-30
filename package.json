@@ -1,0 +1,22 @@
+{
+	"name": "zoom-service",
+	"version": "1.0.0",
+	"description": "Zoom Service for zoom client",
+	"main": "index.js",
+	"repository": "https://github.com/arupKumarGupta/zoom-clone-service.git",
+	"author": "Arup Kumar Gupta",
+	"license": "MIT",
+	"private": false,
+	"scripts": {
+		"dev": "nodemon index",
+		"build": "yarn build"
+	},
+	"dependencies": {
+		"express": "^4.18.1",
+		"socket.io": "^4.5.1",
+		"uuid4": "^2.0.2"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.19"
+	}
+}
